@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MyVita</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" sizes="16x16" href="img/logo.ico">
+    <script src="https://kit.fontawesome.com/4ca6ae2afd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- MOBILE-NAV -->
+    <header class="mobile">
+        <div class="mobile-logo">
+            <img src="img/logo.png" alt="logo" />
+        </div>
+        <div id="burger_btn" class="mobil_nav_btn">
+            <div class="icon">
+                <span class="line top"></span>
+                <span class="line middle"></span>
+                <span class="line bottom"></span>
+            </div>
+        </div>
+        <div class="mobile_nav_content">
+            <ul>
+                <li class="nav-links"><a href="#about-section">About</a></li>
+                <li class="nav-links">
+                    <a href="#portfolio-section">Portfolio</a>
+                </li>
+                <li class="nav-links">
+                    <a href="#ressources-section">Ressources</a>
+                </li>
+                <li class="nav-links"><a href="#contact-section">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- DESKTOP-NAV -->
+    <header class="desktop">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo" />
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <div class="items">
+                        <div class="items-wrapper">
+                            <a class="nav-links" href="#about-section"><i class="far fa-smile icons"></i>About</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="items">
+                        <div class="items-wrapper">
+                            <a class="nav-links" href="#portfolio-section"><i
+                                    class="fas fa-folder-minus icons"></i>Portfolio</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="items">
+                        <div class="items-wrapper">
+                            <a class="nav-links" href="#ressources-section"><i
+                                    class="fas fa-book-reader icons"></i>Ressources</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="items">
+                        <div class="items-wrapper">
+                            <a class="nav-links" href="#contact-section"><i class="fas fa-envelope icons">
+                                </i></i>Contact</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SHOWCASE -->
+    <section class="showcase">
+        <div class="showcase-description">
+            <h1>Petra Tsesmetzi</h1>
+            <p>Junior Frontend-Developer</p>
+        </div>
+        <div class="showcase-img">
+            <img src="img/coder.png" alt="coder" />
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about-section" class="about">
+        <div class="about-header">
+            <h1>About Me</h1>
+            <p>I’m always excited to learn and build things</p>
+        </div>
+        <div class="about-content">
+            <img src="img/software-engineer.png" alt="software-engineer" />
+            <div class="about-content-desc">
+                <h1>Who am I?</h1>
+                <p>
+                    I'm Petra Tsesmetzi junior frontend developer, I'm always looking for an
+                    opportunity to code and learn new things. I care about writing clean, simple
+                    and maintainable code that is easy to read for humans. Before becoming a
+                    developer I worked as process engeer.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills-section" class="skills">
+        <div class="skills-header">
+            <h1>Skills</h1>
+        </div>
+        <div class="skills-content">
+            <div id="item_1" class="skills-items">
+                <img src="img/skills/html5.png" alt="html5-logo" />
+            </div>
+            <div id="item_2" class="skills-items">
+                <img src="img/skills/css3.png" alt="css3-logo" />
+            </div>
+            <div id="item_3" class="skills-items">
+                <img src="img/skills/javascript.png" alt="javascript-logo" />
+            </div>
+            <div id="item_4" class="skills-items">
+                <img src="img/skills/react.png" alt="react-logo" />
+            </div>
+            <div id="item_5" class="skills-items">
+                <img src="img/skills/bootstrap.png" alt="bootstrap-logo" />
+            </div>
+            <div id="item_6" class="skills-items">
+                <img src="img/skills/git.png" alt="git-logo" />
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio-section" class="portfolio">
+        <div class="portfolio-header">
+            <h1>Portfolio</h1>
+            <p>My Development Projects</p>
+        </div>
+        <div class="portfolio-content">
+            <div class="card">
+                <div class="card-header">
+                    <div class="blur">
+                        <div class="blur-wrapper">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                    <img src="img/projects/my-vita.png" alt="my-vita">
+                </div>
+                <div class="card-body">
+                    <h1>My Vita</h1>
+                    <h2>Portfolio</h2>
+                    <p>
+                        You are on it!
+                        My portfolio Website.Created Html5, CSS3 and Vanilla Javascript.
+                    </p>
+                    <a href="https://mbdc-personalities.herokuapp.com/home" target="_blank">Watch App on Heroku</a>
+                    <a href="https://mbdc-personalities.herokuapp.com/home" target="_blank">Watch Code on GitHub <img
+                            src="img/skills/github.png" alt="git-hub" /></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="blur">
+                        <div class="blur-wrapper">
+                            <span>SPA</span>
+                            <span>Webcomponents</span>
+                            <span>Routing</span>
+                            <span>Store</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                    <img src="img/projects/mbdc.jpg" alt="mbdc-img" />
+                </div>
+                <div class="card-body">
+                    <h1>Meyers Briggs</h1>
+                    <h2>Personality Test</h2>
+                    <p>
+                        A Single Page Application. Created with Vanilla Javascript, Html5 and
+                        CSS3.Also used Webcomponents and Webpack to develop this little Application
+                    </p>
+                    <a href="https://mbdc-personalities.herokuapp.com/home" target="_blank">Watch App on Heroku</a>
+                    <a href="https://mbdc-personalities.herokuapp.com/home" target="_blank">Watch Code on GitHub <img
+                            src="img/skills/github.png" alt="git-hub" /></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="blur">
+                        <div class="blur-wrapper">
+                            <span>SPA</span>
+                            <span>Webcomponents</span>
+                            <span>Routing</span>
+                            <span>Store</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                    <img src="img/projects/mbdc.jpg" alt="mbdc-img" />
+                </div>
+                <div class="card-body">
+                    <h1>Meyers Briggs</h1>
+                    <h2>Personality Test</h2>
+                    <p>
+                        A Single Page Application. Created with Vanilla Javascript, Html5 and
+                        CSS3.Also used Webcomponents and Webpack to develop this little Application
+                    </p>
+                    <a href="https://mbdc-personalities.herokuapp.com/home" target="_blank">Watch App on Heroku</a>
+                    <a href="https://mbdc-personalities.herokuapp.com/home" target="_blank">Watch Code on GitHub <img
+                            src="img/skills/github.png" alt="git-hub" /></a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="blur">
+                        <div class="blur-wrapper">
+                            <span>SPA</span>
+                            <span>Webcomponents</span>
+                            <span>Routing</span>
+                            <span>Store</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                    <img src="img/projects/mbdc.jpg" alt="mbdc-img" />
+                </div>
+                <div class="card-body">
+                    <h1>Meyers Briggs</h1>
+                    <h2>Personality Test</h2>
+                    <p>
+                        A Single Page Application. Created with Vanilla Javascript, Html5 and
+                        CSS3.Also used Webcomponents and Webpack to develop this little Application
+                    </p>
+                    <a href="https://mbdc-personalities.herokuapp.com/home" target="_blank">Watch App on Heroku
+                    </a>
+                    <a href="https://mbdc-personalities.herokuapp.com/home" target="_blank">Watch Code on GitHub <img
+                            src="img/skills/github.png" alt="git-hub" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- RESSOURCES -->
+    <section id="ressources-section" class="ressources">
+        <div class="ressources-header">
+            <h1>Resources</h1>
+            <p>Resources I use for my development work</p>
+        </div>
+        <div class="ressources-content">
+            <div class="res-card">
+                <div class="res-card-wrapper">
+                    <div class="res-card-header">
+                        <img src="img/reference/udemy.png" alt="udemy-logo" />
+                    </div>
+                    <div class="res-card-content">
+                        <h1>Udemy</h1>
+                        <p>
+                            One of the best resources for documentation, tutorials and developer tools
+                            available
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="res-card">
+                <div class="res-card-wrapper">
+                    <div class="res-card-header">
+                        <img src="img/reference/codecademy.png" alt="codecademy-logo" />
+                    </div>
+                    <div class="res-card-content">
+                        <h1>codecademy</h1>
+                        <p>
+                            One of the best resources for documentation, tutorials and developer tools
+                            available
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="res-card">
+                <div class="res-card-wrapper">
+                    <div class="res-card-header">
+                        <img src="img/reference/rheinwerk.jpg" alt="rheinwerk-logo" />
+                    </div>
+                    <div class="res-card-content">
+                        <h1>Rheinwerk Verlag</h1>
+                        <p>
+                            One of the best resources for documentation, tutorials and developer tools
+                            available
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="res-card">
+                <div class="res-card-wrapper">
+                    <div class="res-card-header">
+                        <img src="img/reference/MDN-Reference.png" alt="MDN-Reference-logo" />
+                    </div>
+                    <div class="res-card-content">
+                        <h1>MDN Reference</h1>
+                        <p>
+                            One of the best resources for documentation, tutorials and developer tools
+                            available
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="res-card">
+                <div class="res-card-wrapper">
+                    <div class="res-card-header">
+                        <img src="img/reference/react.png" alt="react-logo" />
+                    </div>
+                    <div class="res-card-content">
+                        <h1>React Docs</h1>
+                        <p>
+                            One of the best resources for documentation, tutorials and developer tools
+                            available
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="res-card">
+                <div class="res-card-wrapper">
+                    <div class="res-card-header">
+                        <img src="img/reference/stackoverflow.png" alt="stackoverflow-logo" />
+                    </div>
+                    <div class="res-card-content">
+                        <h1>Stackoverflow</h1>
+                        <p>
+                            One of the best resources for documentation, tutorials and developer tools
+                            available
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact-section" class="contact">
+        <div class="contact-header">
+            <h1>Contact</h1>
+            <p>
+                I'd love to hear from you!<br />I'm currently available for part-time or in
+                full-time positions in berlin
+            </p>
+            <p>Here is how you can reach me</p>
+        </div>
+        <div class="contact-content-wrapper">
+            <div class="contact-content">
+                <div class="email">
+                    <i class="fas fa-envelope"></i>
+                    <p>p_tsesmetzi@gmx.de</p>
+                </div>
+                <div class="tel">
+                    <i class="fas fa-phone"></i>
+                    <p>030/7753204</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="links">
+                <i class="fab fa-xing-square"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="corp">
+                <p>
+                    © 2020, Designed & Coded by Petra Tsesmetzi
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/sever.js"></script>
+    <script src="js/navigation.js"></script>
+</body>
+
+</html>
